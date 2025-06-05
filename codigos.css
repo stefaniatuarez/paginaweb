@@ -1,0 +1,73 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5DC; /* Fondo beige */
+  margin: 0;
+  padding: 20px;
+  color: #000000; /* Texto oscuro para contraste */
+}
+
+/* Perfil */
+.perfil {
+  background-color: #ADD8E6; /* Azul claro */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra suave */
+  color: #000000; /* Texto oscuro dentro del relleno azul claro */
+  border: 2px solid #FFD700; /* Borde dorado */
+}
+
+/* Títulos dentro del perfil */
+h1, h2 {
+  color: #000000; /* Títulos en negro */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Lista */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilo de enlaces (si los hay) */
+a {
+  color: #FFD700; /* Enlaces dorados */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #FFB6C1; /* Rosa pastel al pasar el ratón */
+}
+
+/* Estilo cuando se hace clic en los enlaces */
+a:active {
+  color: #FFB6C1; /* Rosa pastel */
+}
+
+/* Botón o elementos interactivos (si tienes) */
+.boton {
+  background-color: #ADD8E6; /* Azul claro */
+  color: #000000; /* Texto oscuro */
+  padding: 12px 24px;
+  border: 2px solid #FFD700; /* Borde dorado */
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra sutil */
+}
+
+.boton:active {
+  background-color: #FFB6C1; /* Rosa pastel */
+  color: white; /* Texto blanco */
+  border-color: #FFD700; /* Borde dorado */
+  transform: scale(0.98); /* Efecto de "presionar" */
+}
